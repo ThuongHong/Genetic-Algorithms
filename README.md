@@ -31,4 +31,6 @@
 
 ## Implementation
 
-### Introduction Task (Guessing Sentence)
+### [MNIST Classification](MNIST/MNIST.md)
+
+### NP-Hard Solver

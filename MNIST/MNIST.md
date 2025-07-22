@@ -41,6 +41,11 @@
   - **Mutation**
 - A `Classifier` class is responsible for decoding the chromosome back into $W$ and $b$, applying the softmax function, and performing prediction.
 
+### Result
+- The performance of the Genetic Algorithm-based model is relatively poor, with an accuracy of only 0.64.
+- Training with Genetic Algorithms is significantly time-consuming compared to traditional methods.
+- However, I believe that with more generations and continued evolution, the model's performance could improve further.
+
 ---
 
 This approach replaces gradient-based optimization with evolutionary search. Through experimenting with this problem, I had the opportunity to gain a deeper understanding of how Genetic Algorithms work, while also reinforcing my knowledge of NumPy and scikit-learn syntax.

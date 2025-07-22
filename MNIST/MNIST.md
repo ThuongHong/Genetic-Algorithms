@@ -25,8 +25,8 @@
 
 ### Genetic Representation
 
-- First, flatten the weight matrix \( W \) into a 1D vector \( W^* \in \mathbb{R}^{C \cdot d} \).
-- Then, concatenate \( W^* \) with the bias vector \( b \) to form an **individual chromosome**:
+- First, flatten the weight matrix $W$ into a 1D vector $W^* \in \mathbb{R}^{C \times d}$.
+- Then, concatenate $W^*$ with the bias vector $b$ to form an **individual chromosome**:
 
   $$
   I = [W^* \,\|\, b] \in \mathbb{R}^{C \cdot d + C}
@@ -39,7 +39,7 @@
   - **Selection**
   - **Crossover**
   - **Mutation**
-- A `Classifier` class is responsible for decoding the chromosome back into \( W \) and \( b \), applying the softmax function, and performing prediction.
+- A `Classifier` class is responsible for decoding the chromosome back into $W$ and $b$, applying the softmax function, and performing prediction.
 
 ---
 

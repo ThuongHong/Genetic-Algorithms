@@ -33,4 +33,4 @@
 
 ### [MNIST Classification](MNIST/MNIST.md)
 
-### NP-Hard Solver
+### [(NP-Hard) N-Queens Solver](NP-HARD/nqueens.md)
